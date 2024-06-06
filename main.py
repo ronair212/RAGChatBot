@@ -1,19 +1,4 @@
-'''
-in bash run the below lines first 
 
-
-export COHERE_API_KEY="Aj7fRPV0FBm1u6baUBuAZc5yMOvOs6krkrqVppam"
-export TRANSFORMERS_CACHE="/work/LitArt/nair/chatbot_files/models"
-export PYTORCH_TRANSFORMERS_CACHE="/work/LitArt/nair/chatbot_files/models"
-export HUGGINGFACE_HUB_CACHE="/work/LitArt/nair/chatbot_files/models"
-
-
-
-
-Example run 
-python main.py --llm tiiuae/falcon-7b --load_in_8bit True --persist_directory /home/directory
-
-'''
 
 import argparse
 import chain

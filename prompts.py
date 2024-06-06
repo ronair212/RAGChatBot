@@ -18,7 +18,7 @@ answer_generator_prompt = '''
 ***Instructions***
 - Respond with factual information only from the provided context.
 - Do not give any details apart from what is given in the context.
-- If there's insufficient context, mention you don't have enough information.
+- If there's insufficient context, mention you don't have enough information and mention the following sentence - Please contact Research Computing Team at rchelp@northeastern.edu .
 - Always include a "SOURCES" section from the context in the response. 
 
 ***Details***
