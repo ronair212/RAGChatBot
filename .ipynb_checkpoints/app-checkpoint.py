@@ -1,5 +1,5 @@
 import os
-import getpass
+import time
 import streamlit as st
 import chain
 from config import (DEFAULT_CONFIG, LLM_FALCON_40B, LLM_FALCON_7B_INSTRUCT,
@@ -30,34 +30,39 @@ persist_directory = st.sidebar.text_input("Persist Directory", DEFAULT_CONFIG["p
 
 if selected_llm == "GPT":
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
-    os.environ["OPENAI_API_KEY"] = openai_api_key
+    if openai_api_key:
+        os.environ["OPENAI_API_KEY"] = openai_api_key
 
 DEFAULT_CONFIG["persist_directory"] = persist_directory
 DEFAULT_CONFIG["load_in_8bit"] = load_in_8bit
 DEFAULT_CONFIG["rephrase"] = rephrase
 
-# Initialize the conversational retrieval chain
-retrieval_chain = initialize_chain(selected_llm)
+# Check for OpenAI API key if GPT is selected
+if selected_llm == "GPT" and not os.getenv("OPENAI_API_KEY"):
+    st.error("OpenAI API Key is required for using GPT. Please provide it in the sidebar.")
+else:
+    # Initialize the conversational retrieval chain
+    retrieval_chain = initialize_chain(selected_llm)
 
-st.session_state.messages = st.session_state.get("messages", [])
+    st.session_state.messages = st.session_state.get("messages", [])
 
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
-if prompt := st.chat_input("What is your question?"):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
+    if prompt := st.chat_input("What is your question?"):
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
 
-    start_time = time.time()
-    assistant_response = retrieval_chain({"question": prompt})
-    end_time = time.time()
+        start_time = time.time()
+        assistant_response = retrieval_chain({"question": prompt})
+        end_time = time.time()
 
-    response = assistant_response['answer']
-    time_taken = end_time - start_time
+        response = assistant_response['answer']
+        time_taken = end_time - start_time
 
-    st.session_state.messages.append({"role": "assistant", "content": response})
-    with st.chat_message("assistant"):
-        st.markdown(response)
-    st.write(f"Time taken: {time_taken:.2f} seconds")
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        with st.chat_message("assistant"):
+            st.markdown(response)
+        st.write(f"Time taken: {time_taken:.2f} seconds")

@@ -1,7 +1,7 @@
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from config import CACHE_DIR, LLM_FALCON_40B, LLM_LLAMA2_70B_INSTRUCT , LLM_LLAMA2_7B_32K_INSTRUCT
 from config import *
 from config import MODEL_UTILS_CONFIG
