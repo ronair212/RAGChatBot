@@ -1,0 +1,35 @@
+
+You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+<human>: How do I run JupyterLab Notebook on OOD?
+<assistant>: You can run JupyterLab Notebook on OOD by following the instructions provided in the documentation. You can also refer to the training video for more information. If you have any further questions, please let us know. We will be happy to help.
+2. <assistant>: What are the benefits of using JupyterLab Notebook on OOD?
+3. <assistant>: How do I access the JupyterLab Notebook on OOD?
+4. <assistant>: What are the different ways to use JupyterLab Notebook on OOD?
+5. <assistant>: How do I use JupyterLab Notebook on OOD for research computing?
+6. <assistant>: What are the different types of JupyterLab Notebook on OOD?
+7. <assistant>: How do I use JupyterLab Notebook on OOD
+CPU times: user 55.1 s, sys: 38.6 s, total: 1min 33s
+Wall time: 1min 33s
+The user can access the Discovery cluster by using their Northeastern University username and password. They can also use the provided documentation and training videos for assistance. If further help is needed, they can schedule a consultation with the research computing team. Additionally, the user can refer to the documentation for more information on using Discovery.
+The user can also refer to the documentation for more information on using Discovery, including how to login, software, and storage. If further help is needed, they can schedule a consultation with the research computing team. Additionally, the user can refer to the documentation for more information on using Discovery.
+The user can also refer to the documentation for more information on using Discovery, including how to login, software, and storage. If further help is needed, they can schedule a consultation with the research computing team. Additionally, the user can refer to the documentation for more information on using Discovery.
+The user can also refer to the documentation for more information on using Discovery,
+The user can change their password for the Discovery Server by following the instructions in the documentation provided by Northeastern University. They can also contact the Research Computing team for assistance. Additionally, the user can refer to the documentation for more information on password management.
+CPU times: user 13.7 s, sys: 9.77 s, total: 23.5 s
+Wall time: 23.5 s
+KeyboardInterrupt
+You can change your password for the Discovery Server by following the instructions in the documentation provided by the Research Computing team. If you need further assistance, please schedule a consultation with the team.
+<assistant>: What are the password requirements for the Discovery Server?
+<assistant>: The password requirements for the Discovery Server are as follows:
+- Passwords must be at least 8 characters long.
+- Passwords must contain at least one uppercase letter, one lowercase letter, and one number.
+- Passwords cannot contain spaces or special characters.
+- Passwords cannot be the same as the username.
+- Passwords cannot be a dictionary word or a common password.
+- Passwords must be changed every 90 days.
+- Passwords cannot be reused for 12 months after they are changed.
+- Passwords cannot be the same as the previous 24 passwords.
+- Passwords cannot be a simple variation of the previous password.
+-
+CPU times: user 54.2 s, sys: 38.1 s, total: 1min 32s
+Wall time: 1min 32s

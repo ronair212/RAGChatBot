@@ -1,0 +1,1019 @@
+2023-10-20 01:46:48,027 INFO    StreamThr :65415 [internal.py:wandb_internal():86] W&B internal server running at pid: 65415, started at: 2023-10-20 01:46:48.020112
+2023-10-20 01:46:48,029 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status
+2023-10-20 01:46:48,034 INFO    WriterThread:65415 [datastore.py:open_for_write():85] open: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/run-nynm5r84.wandb
+2023-10-20 01:46:48,038 DEBUG   SenderThread:65415 [sender.py:send():379] send: header
+2023-10-20 01:46:48,237 DEBUG   SenderThread:65415 [sender.py:send():379] send: run
+2023-10-20 01:46:48,494 INFO    SenderThread:65415 [dir_watcher.py:__init__():211] watching files in: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files
+2023-10-20 01:46:48,494 INFO    SenderThread:65415 [sender.py:_start_run_threads():1121] run started: nynm5r84 with start time 1697780808.023719
+2023-10-20 01:46:48,500 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: check_version
+2023-10-20 01:46:48,500 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: check_version
+2023-10-20 01:46:48,597 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: run_start
+2023-10-20 01:46:48,603 DEBUG   HandlerThread:65415 [system_info.py:__init__():32] System info init
+2023-10-20 01:46:48,603 DEBUG   HandlerThread:65415 [system_info.py:__init__():47] System info init done
+2023-10-20 01:46:48,603 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:46:48,603 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:46:48,604 INFO    HandlerThread:65415 [system_monitor.py:probe():201] Collecting system info
+2023-10-20 01:46:48,604 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:46:48,606 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:46:48,607 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:46:48,608 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:46:48,610 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:46:48,619 DEBUG   HandlerThread:65415 [system_info.py:probe():196] Probing system
+2023-10-20 01:46:48,628 DEBUG   HandlerThread:65415 [system_info.py:_probe_git():181] Probing git
+2023-10-20 01:46:48,652 DEBUG   HandlerThread:65415 [system_info.py:_probe_git():189] Probing git done
+2023-10-20 01:46:48,653 DEBUG   HandlerThread:65415 [system_info.py:probe():244] Probing system done
+2023-10-20 01:46:48,653 DEBUG   HandlerThread:65415 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.9.16', 'heartbeatAt': '2023-10-20T05:46:48.619411', 'startedAt': '2023-10-20T05:46:47.928244', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com:northeastern-rc/chatbotrc.git', 'commit': 'a1ba190c57cc8f2486392c596bdf3028b87f9b1b'}, 'email': 'r.nair@northeastern.edu', 'root': '/work/rc/projects/chatbot/chatbotrc', 'host': 'd1028', 'username': 'r.nair', 'executable': '/work/rc/projects/chatbot/conda_env/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2794.929000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}, {'current': 2794.929, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 19.521484375, 'used': 5.361412048339844}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 503.40164947509766}}
+2023-10-20 01:46:48,653 INFO    HandlerThread:65415 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-20 01:46:48,653 INFO    HandlerThread:65415 [system_monitor.py:probe():214] Publishing system info
+2023-10-20 01:46:48,653 DEBUG   HandlerThread:65415 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-20 01:46:48,658 DEBUG   HandlerThread:65415 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-20 01:46:48,658 DEBUG   HandlerThread:65415 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-20 01:46:49,496 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_created():271] file/dir created: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/conda-environment.yaml
+2023-10-20 01:46:49,497 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_created():271] file/dir created: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/requirements.txt
+2023-10-20 01:46:55,155 DEBUG   HandlerThread:65415 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-20 01:46:55,164 INFO    HandlerThread:65415 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-20 01:46:55,203 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:46:55,203 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-20 01:46:55,204 DEBUG   SenderThread:65415 [sender.py:send():379] send: files
+2023-10-20 01:46:55,204 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-10-20 01:46:55,255 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:46:55,257 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:46:55,258 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:46:55,400 DEBUG   SenderThread:65415 [sender.py:send():379] send: telemetry
+2023-10-20 01:46:55,400 DEBUG   SenderThread:65415 [sender.py:send():379] send: config
+2023-10-20 01:46:55,400 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:46:55,400 DEBUG   SenderThread:65415 [sender.py:send():379] send: telemetry
+2023-10-20 01:46:55,401 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:46:55,401 WARNING SenderThread:65415 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2023-10-20 01:46:55,504 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/conda-environment.yaml
+2023-10-20 01:46:55,504 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_created():271] file/dir created: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:46:55,505 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_created():271] file/dir created: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-metadata.json
+2023-10-20 01:46:55,591 INFO    wandb-upload_0:65415 [upload_job.py:push():131] Uploaded file /tmp/tmph__wjp76wandb/whqbqhxz-wandb-metadata.json
+2023-10-20 01:46:57,513 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:46:59,407 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:04,408 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:09,409 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:10,223 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:47:10,223 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:47:10,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:47:15,366 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:20,371 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:20,537 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/config.yaml
+2023-10-20 01:47:25,220 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:47:25,220 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:47:25,259 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:47:26,366 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:28,330 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:47:28,331 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:47:28,331 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:47:28,331 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:47:28,331 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:47:28,331 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:47:28,338 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:47:28,547 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_created():271] file/dir created: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:47:32,339 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:37,340 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:40,220 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:47:40,221 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:47:40,223 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:47:43,285 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:48,285 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:48,610 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:47:48,611 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:47:53,617 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:47:54,573 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/config.yaml
+2023-10-20 01:47:55,220 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:47:55,220 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:47:55,260 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:47:59,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:01,553 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:48:01,554 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:48:01,554 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:48:01,558 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:48:01,577 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:48:04,559 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:09,559 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:10,220 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:48:10,221 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:48:10,223 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:48:15,347 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:18,612 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:48:20,613 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:25,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:48:25,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:48:25,260 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:48:26,362 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:31,363 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:34,917 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:48:34,920 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:48:34,921 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:48:34,926 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:48:35,602 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:48:36,927 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:40,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:48:40,221 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:48:40,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:48:42,375 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:47,375 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:48,614 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:48:52,615 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:48:55,220 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:48:55,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:48:55,260 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:48:58,304 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:03,305 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:08,181 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:49:08,183 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:49:08,183 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:49:08,187 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:49:08,629 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:49:09,188 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:10,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:49:10,221 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:49:10,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:49:14,303 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:18,615 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:49:19,616 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:24,617 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:25,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:49:25,221 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:49:25,260 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:49:30,313 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:35,314 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:40,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:49:40,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:49:40,261 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:49:41,291 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:49:41,292 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:49:41,292 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:49:41,294 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:41,297 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:49:41,652 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:49:46,298 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:48,617 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:49:51,618 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:49:55,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:49:55,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:49:55,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:49:57,357 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:02,358 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:07,359 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:10,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:50:10,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:50:10,261 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:50:13,289 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:14,497 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:50:14,498 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:50:14,499 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:50:14,504 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:50:14,678 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:50:18,505 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:18,618 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:50:23,619 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:25,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:50:25,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:50:25,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:50:29,389 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:34,390 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:39,390 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:40,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:50:40,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:50:40,261 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:50:45,325 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:47,528 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:50:47,529 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:50:47,529 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:50:47,536 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:50:47,710 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:50:48,619 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:50:50,620 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:50:55,221 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:50:55,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:50:55,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:50:56,393 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:01,394 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:06,395 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:10,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:51:10,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:51:10,261 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:51:12,296 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:17,297 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:18,620 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:51:20,580 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:51:20,581 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:51:20,581 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:51:20,585 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:51:20,733 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:51:22,586 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:25,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:51:25,222 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:51:25,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:51:28,353 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:33,354 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:38,354 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:40,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:51:40,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:51:40,261 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:51:43,357 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:48,357 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:48,622 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:51:53,623 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:51:53,777 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:51:53,778 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:51:53,778 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:51:53,782 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:51:54,758 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:51:55,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:51:55,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:51:55,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:51:59,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:04,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:09,377 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:10,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:52:10,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:52:10,262 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:52:15,319 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:18,626 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:52:20,627 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:25,222 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:52:25,223 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:52:25,263 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:52:26,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:27,286 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:52:27,288 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:52:27,288 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:52:27,292 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:52:27,780 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:52:32,293 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:37,294 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:40,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:52:40,224 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:52:40,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:52:42,314 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:47,314 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:48,624 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:52:52,625 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:52:55,223 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:52:55,224 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:52:55,263 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:52:58,359 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:00,757 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:53:00,758 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:53:00,758 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:53:00,764 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:53:00,803 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:53:03,765 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:08,766 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:10,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:53:10,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:53:10,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:53:14,405 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:18,625 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:53:19,626 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:24,626 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:25,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:53:25,224 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:53:25,264 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:53:30,327 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:34,145 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:53:34,146 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:53:34,146 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:53:34,155 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:53:34,826 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:53:36,155 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:40,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:53:40,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:53:40,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:53:41,332 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:46,333 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:48,626 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:53:51,627 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:53:55,224 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:53:55,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:53:55,264 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:53:57,301 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:02,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:07,060 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:54:07,061 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:54:07,061 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:54:07,068 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:54:07,847 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:54:08,069 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:10,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:54:10,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:54:10,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:54:13,329 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:18,329 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:18,627 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:54:23,628 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:25,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:54:25,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:54:25,264 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:54:29,380 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:34,380 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:39,381 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:40,052 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:54:40,052 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:54:40,053 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:54:40,065 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:54:40,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:54:40,225 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:54:40,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:54:40,872 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:54:45,307 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:48,628 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:54:50,630 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:54:55,225 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:54:55,226 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:54:55,264 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:54:56,350 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:01,350 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:06,351 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:10,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:55:10,226 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:55:10,265 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:55:11,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:13,704 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:55:13,705 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:55:13,706 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:55:13,711 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:55:13,893 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:55:16,712 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:18,629 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:55:22,631 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:25,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:55:25,226 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:55:25,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:55:28,395 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:33,396 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:38,397 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:40,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:55:40,227 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:55:40,265 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:55:44,296 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:46,983 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:55:46,985 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:55:46,985 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:55:46,992 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:55:47,023 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-20 01:55:47,024 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:55:47,024 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:55:47,024 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:55:47,024 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:55:47,024 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:55:47,026 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: metric
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send():379] send: history
+2023-10-20 01:55:47,027 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: summary_record
+2023-10-20 01:55:47,028 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:55:47,030 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 01:55:47,070 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:55:47,070 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:55:47,071 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:55:47,071 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:55:47,071 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:55:47,071 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:55:47,071 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:55:47,072 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:55:47,072 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:55:47,073 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:55:47,074 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:55:47,074 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:55:47,075 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:55:47,134 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:55:47,134 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:55:47,134 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:55:47,135 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:55:47,135 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:55:47,135 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:55:47,135 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:55:47,135 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:55:47,184 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:55:47,184 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:55:47,184 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:55:47,184 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:55:47,184 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:55:47,184 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:55:47,185 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:55:47,185 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:55:47,185 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:55:47,185 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:55:47,186 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:55:47,187 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:55:47,187 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:55:47,188 WARNING HandlerThread:65415 [interfaces.py:finish():207] Failed to finish disk monitoring: cannot join thread before it is started
+2023-10-20 01:55:47,188 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:55:47,188 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:55:47,188 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:55:47,188 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:55:47,189 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:55:47,189 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:55:47,189 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:55:47,189 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:55:47,189 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:55:47,189 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:55:47,189 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:55:47,189 WARNING HandlerThread:65415 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-10-20 01:55:47,190 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:55:47,190 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:55:47,190 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:55:47,190 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:55:47,190 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:55:47,190 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:55:47,190 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:55:47,190 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:55:47,190 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:55:47,191 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:55:47,192 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:55:47,192 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:55:47,193 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:55:47,194 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:55:47,916 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 01:55:50,192 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:55,197 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:55:55,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:55:55,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:55:55,313 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:55:55,921 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/config.yaml
+2023-10-20 01:56:00,420 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:05,421 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:10,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:56:10,226 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:56:10,265 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:56:11,303 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:16,303 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:17,337 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:17,337 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:17,337 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:17,337 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:17,337 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:17,337 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:17,339 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:17,339 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:56:17,367 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:56:17,367 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:56:17,367 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:56:17,367 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:17,376 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:17,376 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:17,376 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:17,376 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:17,377 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:17,378 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:56:17,379 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:56:17,379 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:56:17,379 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:56:18,283 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:18,283 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:18,284 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:18,284 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:18,284 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:56:18,285 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:18,285 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:18,285 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:18,328 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:56:18,329 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:56:18,329 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:56:18,329 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:18,329 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:18,329 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:18,330 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:18,330 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:18,330 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:18,330 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:18,331 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:18,331 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:18,331 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:18,331 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:18,331 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:18,332 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:18,332 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:18,332 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:18,332 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:18,332 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:18,333 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:18,334 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:18,335 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:56:18,336 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:56:18,336 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:56:18,337 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:56:21,334 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:25,226 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:56:25,227 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:56:25,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:56:27,318 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:32,319 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:37,320 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:37,662 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:37,662 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:37,662 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:37,663 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:37,664 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:37,664 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:37,664 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:37,665 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:56:37,715 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:56:37,715 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:56:37,715 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:56:37,715 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:37,715 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:37,715 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:37,716 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:37,716 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:37,716 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:37,717 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:37,717 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:37,717 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:37,717 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:37,717 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:37,718 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:37,719 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:37,719 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:37,719 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:37,719 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:37,719 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:37,719 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:37,719 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:37,719 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:37,720 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:37,720 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:37,720 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:37,721 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:37,722 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:37,722 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:37,722 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:37,722 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:37,722 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:37,723 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:56:37,723 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:56:37,723 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:56:37,723 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:37,723 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:56:37,723 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:56:37,723 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:56:37,724 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:56:37,724 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:56:37,724 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:56:37,724 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:56:37,725 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:56:37,725 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:56:37,726 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:37,726 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:56:37,726 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:37,727 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:56:37,729 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:56:37,729 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:56:37,729 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:56:40,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:56:40,228 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:56:40,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:56:42,349 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:47,350 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:52,351 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:56:55,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:56:55,227 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:56:55,267 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:56:58,309 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:03,309 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:08,310 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:10,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:57:10,227 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:57:10,266 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:57:13,380 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:18,381 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:23,382 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:25,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:57:25,228 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:57:25,268 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:57:29,304 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:30,361 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:57:30,361 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:57:30,361 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:57:30,362 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:57:30,363 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:57:30,372 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:57:30,372 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:57:30,372 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:57:30,408 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:57:30,409 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:57:30,409 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:57:30,409 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:57:30,409 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:57:30,409 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:57:30,409 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:57:30,409 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:57:30,410 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:57:30,410 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:57:30,410 WARNING HandlerThread:65415 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-10-20 01:57:30,410 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:57:30,410 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:57:30,410 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:57:30,410 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:57:30,410 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:57:30,410 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:57:30,410 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:57:30,411 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:57:30,411 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:57:30,412 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:57:30,413 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:57:30,413 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:57:30,414 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:57:30,415 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:57:30,415 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:57:32,995 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:57:34,413 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:39,414 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:40,227 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:57:40,228 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:57:40,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:57:45,365 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:50,366 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:57:55,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:57:55,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:57:55,268 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:57:56,353 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:01,353 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:06,354 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:10,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:58:10,228 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:58:10,267 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:58:11,357 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:16,358 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:17,378 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:58:17,379 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:58:17,379 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:58:17,379 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:58:17,380 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:58:17,380 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:58:17,380 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:58:17,381 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:58:17,423 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:58:17,424 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:58:17,424 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:58:17,424 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:58:17,424 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:58:17,424 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:58:17,424 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:58:17,425 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:58:17,425 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:58:17,427 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:58:17,428 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:58:17,428 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:58:17,429 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:58:19,028 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:58:21,427 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:25,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:58:25,228 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:58:25,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:58:27,384 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:32,385 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:37,386 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:40,228 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:58:40,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:58:40,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:58:42,396 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:47,397 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:49,124 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:58:49,125 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:58:49,125 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:58:49,125 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:58:49,126 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:58:49,126 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:58:49,127 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:58:49,127 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:58:49,172 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:58:49,172 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:58:49,172 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:58:49,172 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: resume
+2023-10-20 01:58:49,172 INFO    HandlerThread:65415 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-10-20 01:58:49,172 INFO    HandlerThread:65415 [system_monitor.py:start():181] Starting system monitor
+2023-10-20 01:58:49,173 INFO    SystemMonitor:65415 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-20 01:58:49,173 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:58:49,174 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started cpu monitoring
+2023-10-20 01:58:49,175 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started disk monitoring
+2023-10-20 01:58:49,176 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started gpu monitoring
+2023-10-20 01:58:49,177 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started memory monitoring
+2023-10-20 01:58:49,177 INFO    SystemMonitor:65415 [interfaces.py:start():190] Started network monitoring
+2023-10-20 01:58:51,056 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:58:53,175 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:58:55,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:58:55,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:58:55,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:58:58,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:03,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:08,303 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:10,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:59:10,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:59:10,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:59:13,352 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:18,353 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:23,353 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:25,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:59:25,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:59:25,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:59:28,393 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:31,705 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: pause
+2023-10-20 01:59:31,705 INFO    HandlerThread:65415 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-10-20 01:59:31,705 INFO    HandlerThread:65415 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-20 01:59:31,705 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-20 01:59:31,706 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-20 01:59:31,706 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-20 01:59:31,707 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined disk monitor
+2023-10-20 01:59:31,707 DEBUG   SystemMonitor:65415 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-20 01:59:31,750 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-20 01:59:31,750 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined memory monitor
+2023-10-20 01:59:31,750 INFO    HandlerThread:65415 [interfaces.py:finish():202] Joined network monitor
+2023-10-20 01:59:31,751 DEBUG   SenderThread:65415 [sender.py:send():379] send: stats
+2023-10-20 01:59:33,085 INFO    Thread-12 :65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 01:59:33,752 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:38,753 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:40,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:59:40,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:59:40,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 01:59:44,372 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:49,373 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:54,374 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 01:59:55,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 01:59:55,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 01:59:55,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:00:00,355 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:05,355 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:10,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:00:10,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:00:10,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:00:11,348 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:16,349 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:21,350 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:25,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:00:25,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:00:25,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:00:27,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:32,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:37,303 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:40,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:00:40,229 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:00:40,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:00:42,317 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:47,318 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:52,318 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:00:55,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:00:55,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:00:55,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:00:57,319 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:02,319 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:07,320 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:10,229 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:01:10,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:01:10,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:01:12,335 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:17,335 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:22,336 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:25,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:01:25,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:01:25,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:01:27,385 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:32,385 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:37,386 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:40,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:01:40,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:01:40,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:01:43,305 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:48,306 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:53,306 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:01:55,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:01:55,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:01:55,234 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:01:58,400 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:03,400 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:08,401 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:10,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:02:10,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:02:10,233 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:02:14,397 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:19,398 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:24,399 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:25,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:02:25,230 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:02:25,234 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:02:30,369 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:35,370 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:40,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:02:40,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:02:40,234 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:02:41,327 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:46,328 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:51,329 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:02:55,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:02:55,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:02:55,234 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:02:56,364 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:01,365 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:06,365 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:10,230 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:03:10,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:03:10,234 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:03:11,396 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:16,397 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:21,397 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:25,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:03:25,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:03:25,235 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:03:27,392 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:32,393 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:37,394 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:40,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:03:40,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:03:40,270 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:03:43,321 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:48,322 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:53,323 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:03:55,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:03:55,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:03:55,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:03:58,326 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:03,327 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:08,327 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:10,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:04:10,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:04:10,270 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:04:14,300 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:19,301 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:24,302 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:25,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:04:25,231 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:04:25,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:04:29,393 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:34,394 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:39,394 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:40,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:04:40,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:04:40,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:04:45,361 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:50,362 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:04:55,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:04:55,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:04:55,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:04:56,357 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:01,358 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:06,358 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:10,231 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:05:10,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:05:10,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:05:12,339 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:17,339 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:22,340 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:25,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:05:25,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:05:25,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:05:27,351 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:32,352 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:37,352 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:40,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:05:40,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:05:40,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:05:43,318 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:48,318 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:53,319 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:05:55,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:05:55,232 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:05:55,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:05:58,389 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:03,389 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:08,390 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:10,232 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-20 02:06:10,233 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: stop_status
+2023-10-20 02:06:10,271 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:06:14,312 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:19,313 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:20,421 DEBUG   SenderThread:65415 [sender.py:send():379] send: exit
+2023-10-20 02:06:20,421 INFO    SenderThread:65415 [sender.py:send_exit():584] handling exit code: 0
+2023-10-20 02:06:20,421 INFO    SenderThread:65415 [sender.py:send_exit():586] handling runtime: 763
+2023-10-20 02:06:20,427 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 02:06:20,428 INFO    SenderThread:65415 [sender.py:send_exit():592] send defer
+2023-10-20 02:06:20,428 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,428 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-20 02:06:20,428 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,428 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-10-20 02:06:20,428 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 1
+2023-10-20 02:06:20,429 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,429 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-20 02:06:20,429 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 2
+2023-10-20 02:06:20,429 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,429 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-20 02:06:20,429 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 3
+2023-10-20 02:06:20,429 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,429 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-20 02:06:20,429 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-10-20 02:06:20,429 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 4
+2023-10-20 02:06:20,429 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,430 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-20 02:06:20,430 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,430 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-10-20 02:06:20,430 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 5
+2023-10-20 02:06:20,430 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,430 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-20 02:06:20,430 DEBUG   SenderThread:65415 [sender.py:send():379] send: summary
+2023-10-20 02:06:20,435 INFO    SenderThread:65415 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-10-20 02:06:20,435 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,435 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-10-20 02:06:20,435 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 6
+2023-10-20 02:06:20,435 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,435 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-20 02:06:20,436 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,436 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-10-20 02:06:20,436 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 7
+2023-10-20 02:06:20,436 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: status_report
+2023-10-20 02:06:20,436 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,436 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-20 02:06:20,436 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,436 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-10-20 02:06:20,904 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 8
+2023-10-20 02:06:20,904 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,904 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-20 02:06:20,904 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,905 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-10-20 02:06:20,905 INFO    SenderThread:65415 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-20 02:06:20,907 INFO    SenderThread:65415 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-10-20 02:06:20,907 INFO    SenderThread:65415 [job_builder.py:_get_program_relpath():411] run is notebook based run
+2023-10-20 02:06:20,907 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 9
+2023-10-20 02:06:20,908 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:20,908 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-20 02:06:20,908 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:20,908 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-10-20 02:06:20,908 INFO    SenderThread:65415 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-20 02:06:21,135 INFO    SenderThread:65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 02:06:21,135 INFO    SenderThread:65415 [dir_watcher.py:_on_file_modified():288] file/dir modified: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 02:06:21,136 INFO    SenderThread:65415 [dir_watcher.py:finish():388] scan: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files
+2023-10-20 02:06:21,136 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/conda-environment.yaml conda-environment.yaml
+2023-10-20 02:06:21,136 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/config.yaml config.yaml
+2023-10-20 02:06:21,136 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log output.log
+2023-10-20 02:06:21,140 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/requirements.txt requirements.txt
+2023-10-20 02:06:21,141 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-metadata.json wandb-metadata.json
+2023-10-20 02:06:21,141 INFO    SenderThread:65415 [dir_watcher.py:finish():402] scan save: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json wandb-summary.json
+2023-10-20 02:06:21,141 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 10
+2023-10-20 02:06:21,142 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:21,142 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-20 02:06:21,150 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:21,151 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-10-20 02:06:21,151 INFO    SenderThread:65415 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-20 02:06:21,391 INFO    wandb-upload_0:65415 [upload_job.py:push():131] Uploaded file /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/conda-environment.yaml
+2023-10-20 02:06:21,421 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-20 02:06:21,422 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: poll_exit
+2023-10-20 02:06:21,474 INFO    wandb-upload_1:65415 [upload_job.py:push():131] Uploaded file /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/config.yaml
+2023-10-20 02:06:21,506 INFO    wandb-upload_2:65415 [upload_job.py:push():131] Uploaded file /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/output.log
+2023-10-20 02:06:21,509 INFO    wandb-upload_3:65415 [upload_job.py:push():131] Uploaded file /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/requirements.txt
+2023-10-20 02:06:21,515 INFO    wandb-upload_4:65415 [upload_job.py:push():131] Uploaded file /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/files/wandb-summary.json
+2023-10-20 02:06:21,716 INFO    Thread-11 :65415 [sender.py:transition_state():612] send defer: 11
+2023-10-20 02:06:21,716 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:21,716 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-20 02:06:21,717 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:21,717 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-10-20 02:06:21,717 INFO    SenderThread:65415 [file_pusher.py:join():181] waiting for file pusher
+2023-10-20 02:06:21,717 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 12
+2023-10-20 02:06:21,717 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:21,717 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-20 02:06:21,717 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:21,717 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-10-20 02:06:21,717 INFO    SenderThread:65415 [file_stream.py:finish():594] file stream finish called
+2023-10-20 02:06:21,919 INFO    SenderThread:65415 [file_stream.py:finish():598] file stream finish is done
+2023-10-20 02:06:21,919 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 13
+2023-10-20 02:06:21,919 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:21,919 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-20 02:06:21,920 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:21,920 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-10-20 02:06:21,920 INFO    SenderThread:65415 [sender.py:transition_state():612] send defer: 14
+2023-10-20 02:06:21,920 DEBUG   SenderThread:65415 [sender.py:send():379] send: final
+2023-10-20 02:06:21,920 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: defer
+2023-10-20 02:06:21,920 INFO    HandlerThread:65415 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-20 02:06:21,920 DEBUG   SenderThread:65415 [sender.py:send():379] send: footer
+2023-10-20 02:06:21,920 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: defer
+2023-10-20 02:06:21,920 INFO    SenderThread:65415 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-10-20 02:06:21,922 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-20 02:06:21,922 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-20 02:06:21,922 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: server_info
+2023-10-20 02:06:21,923 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-20 02:06:21,923 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-20 02:06:21,923 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: poll_exit
+2023-10-20 02:06:21,924 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: poll_exit
+2023-10-20 02:06:21,924 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-20 02:06:21,924 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: server_info
+2023-10-20 02:06:21,927 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: job_info
+2023-10-20 02:06:21,987 DEBUG   SenderThread:65415 [sender.py:send_request():406] send_request: job_info
+2023-10-20 02:06:21,987 INFO    MainThread:65415 [wandb_run.py:_footer_history_summary_info():3557] rendering history
+2023-10-20 02:06:21,988 INFO    MainThread:65415 [wandb_run.py:_footer_history_summary_info():3589] rendering summary
+2023-10-20 02:06:21,988 INFO    MainThread:65415 [wandb_run.py:_footer_sync_info():3516] logging synced files
+2023-10-20 02:06:21,989 DEBUG   HandlerThread:65415 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-20 02:06:21,989 INFO    HandlerThread:65415 [handler.py:finish():840] shutting down handler
+2023-10-20 02:06:22,927 INFO    WriterThread:65415 [datastore.py:close():294] close: /work/rc/projects/chatbot/chatbotrc/notebooks/Falcon40b_RCDocs/wandb/run-20231020_014647-nynm5r84/run-nynm5r84.wandb
+2023-10-20 02:06:22,987 INFO    SenderThread:65415 [sender.py:finish():1531] shutting down sender
+2023-10-20 02:06:22,988 INFO    SenderThread:65415 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-20 02:06:22,988 INFO    SenderThread:65415 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,25 @@
+
+You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+<human>: How do I run JupyterLab Notebook on OOD?
+<assistant>: To run JupyterLab Notebook on OOD, you can follow these steps:
+1. Open a terminal window.
+2. Type the command "jupyter lab" and press enter.
+3. Wait for the notebook to start up and then click on the "Open in a new tab" button.
+4. You should now be able to use JupyterLab Notebook on OOD.
+If you encounter any issues, please let us know and we will be happy to assist you.
+CPU times: user 31.3 s, sys: 21.2 s, total: 52.6 s
+Wall time: 52.6 s
+The user can access the Discovery cluster by using either SSH or the web portal Open OnDemand (OOD). They can refer to the documentation and training videos provided for more information on using Discovery and can schedule a consultation if further help is needed. It is recommended to schedule a consultation at least 24 hours in advance for the best availability. The user can also refer to the User Guide for more information on Discovery and its features. Additionally, they can join the Slack channel for further assistance and updates.
+CPU times: user 27.9 s, sys: 19.1 s, total: 47 s
+Wall time: 47 s
+The user can change their password for the Discovery Server by following the instructions provided in the email. They can either use the web portal or the command line to change their password. If they have any questions or concerns, they can contact the help desk for assistance. Additionally, they can refer to the documentation for more information on changing their password.
+CPU times: user 19.2 s, sys: 12.6 s, total: 31.8 s
+Wall time: 31.8 s
+To change your password for the Discovery Server, you can follow these steps:
+1. Log in to the Discovery Server using SSH.
+2. Open a terminal and type the command "passwd" to change your password.
+3. Enter a new password and confirm it.
+4. Log out and log back in to the Discovery Server using SSH.
+If you encounter any issues, please contact the Help Desk for assistance.
+CPU times: user 25.2 s, sys: 17.3 s, total: 42.5 s
+Wall time: 42.6 s
