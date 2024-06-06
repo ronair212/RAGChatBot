@@ -1,4 +1,4 @@
-# Conversational Chatbot README
+# Retrieval Augmented Generation (RAG) - Conversational Chatbot 
 
 ## Overview
 
