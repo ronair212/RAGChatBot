@@ -1,10 +1,11 @@
 # Constants related to environment variables
 
-COHERE_API_KEY = "mVc5EhnC3eDPNFwV3d7ai8IudTmsfijju7h7oxQP"
 OPENAI_API_KEY = "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"
+COHERE_API_KEY = "mVc5EhnC3eDPNFwV3d7ai8IudTmsfijju7h7oxQP"
 TRANSFORMERS_CACHE = '/work/LitArt/nair/chatbot_files/models'
 PYTORCH_TRANSFORMERS_CACHE = '/work/LitArt/nair/chatbot_files/models'
 HUGGINGFACE_HUB_CACHE = '/work/LitArt/nair/chatbot_files/models'
+
 
 
 # Hardcoded URLs for data loading
