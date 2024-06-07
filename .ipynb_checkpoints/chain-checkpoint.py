@@ -16,7 +16,7 @@ from langchain.chains import ConversationalRetrievalChain
 from model_utils import *
 #from langchain.schema.vectorstore import VectorStoreRetriever
 #from langchain.retrievers.document_compressors import CohereRerank
-#from langchain.vectorstores import Qdrant
+#from langchain_community.vectorstores import Qdrant
 #from langchain.retrievers import ContextualCompressionRetriever
 from langchain import HuggingFacePipeline
 from prompts import *

@@ -1,5 +1,5 @@
 import os
-from langchain.document_loaders import WebBaseLoader
+from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import TokenTextSplitter
 from config import *
 from config import LOADER_CONFIG

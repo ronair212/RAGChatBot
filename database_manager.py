@@ -1,6 +1,6 @@
 from loaders import DataLoader
 from model_utils import load_huggingface_embeddings
-from langchain.vectorstores import Qdrant
+from langchain_community.vectorstores import Qdrant
 
 '''
 def chromadb(urls):
