@@ -63,3 +63,5 @@ if "retrieval_chain" in st.session_state:
     # Text input for user message
     if st.session_state.get("chat_active", True):
         st.text_input("User:", key="user_input", on_change=send_message)
+        if st.button("Send"):
+            send_message()

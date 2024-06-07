@@ -16,10 +16,14 @@ Given the Chat History and a User's New Question, rephrase the new question to b
 answer_generator_prompt = '''
 [INST]\n
 ***Instructions***
-- Respond with factual information only from the provided context.
+- Respond to the users latest question with factual information from the provided context. 
+- You can have limited friendly conversation like hello,  how are you,  how can i help you. 
+- Dont tell the user that the information is from "context" 
 - Do not give any details apart from what is given in the context.
-- If there's insufficient context, mention you don't have enough information and mention the following sentence - Please contact Research Computing Team at rchelp@northeastern.edu .
-- Always include a "SOURCES" section from the context in the response. 
+- Do not make up any information if it is not there in the context. 
+- Always include a "SOURCES" section from the context in the response when answer is derived from context. 
+- If there's insufficient information in context to answer the question, say the following - I do not have sufficient information at this point to answer your question. Please contact Research Computing Team at rchelp@northeastern.edu . Have a great day!
+
 
 ***Details***
 Context:
